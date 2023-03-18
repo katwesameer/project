@@ -19,6 +19,8 @@ def predict():
     output = prediction[0]
 
     return render_template('index.html', prediction_text='Expense = {}'.format(output))
-
+#####
+#####
+#####
 if __name__ == "__main__":
     app.run(debug=True)
